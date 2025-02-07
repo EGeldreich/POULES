@@ -1,0 +1,15 @@
+.fillable-area {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.watercolor-drop {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3498db;
+    filter: url(#watercolor);
+    opacity: 0;
+}
